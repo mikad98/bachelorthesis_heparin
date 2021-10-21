@@ -1,7 +1,9 @@
+-- Extracting of Heparin Data from the MIMIC-IV 'Inputevents' Table
+
 SELECT DISTINCT 
     subject_id,
     hadm_id,
-    stay_id, -- what if same treatment, different stay_id?
+    stay_id,
     starttime,
     endtime,
     MIN(starttime) OVER(PARTITION BY stay_id) AS init_hep_starttime,
@@ -14,7 +16,7 @@ SELECT DISTINCT
     ROUND((SUM(amount) OVER(PARTITION BY stay_id ORDER BY starttime,endtime ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW))/patientweight, 2) AS kum_amount_end_by_weight,
     ROUND(amount, 2) AS amount,
     amountuom,
-    ROUND(rate, 2) AS rate, -- what if rate = Null?
+    ROUND(rate, 2) AS rate,
     rateuom,
     patientweight,
     ROUND(rate/patientweight,2) AS rate_by_weight,
