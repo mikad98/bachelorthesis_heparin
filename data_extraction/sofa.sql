@@ -1,3 +1,5 @@
+@briangow
+
 -- This Code has been copied from @briangow (https://github.com/MIT-LCP/mimic-code/blob/main/mimic-iv/concepts/score/sofa.sql)
 
 -- EDITED by Jan Mika Dietz (Technical University of Berlin)
