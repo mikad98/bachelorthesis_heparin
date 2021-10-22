@@ -18,8 +18,8 @@ First of, data from MIMIC-IV has been extracted according to the following workf
 The data analysis has then been performed as following:
 
 * The first step was to show some data plots, as can be seen in: [Cohort1_Data_Visualization.ipynb](./data_analysis/Cohort1_Data_Visualization.ipynb)
-* Them, the idea behind the pharmacokinetic models have been illustrated according to: [Visualization of Pharmacokinetic Models.ipynb](./data_analysis/Visualization of Pharmacokinetic Models.ipynb)
-* However, the development of the actual third Pharmacokinetic Model is described in more detail here: [Logic of Pharmacokinetic Model 3.ipynb](./data_analysis/Logic of Pharmacokinetic Model 3.ipynb)
-* The Pharmacokinetic Models have then been analysed in [Evaluation of Pharmacokinetic Models.ipynb](./data_analysis/Evaluation of Pharmacokinetic Models.ipynb)
-* Accordingly, the Features have been evaluated in [Evaluation of Feature Integration.ipynb](/data_analysis/Evaluation of Feature Integration.ipynb)
-* Lastly, a logistic regression model have been trained in [Logistic Regression.ipynb](./data_analysis/Logistic Regression.ipynb)
+* Them, the idea behind the pharmacokinetic models have been illustrated according to: [Visualization of Pharmacokinetic Models.ipynb](./data_analysis/Visualization%20of%20Pharmacokinetic%20Models.ipynb)
+* However, the development of the actual third Pharmacokinetic Model is described in more detail here: [Logic of Pharmacokinetic Model 3.ipynb](./data_analysis/Logic%20of%20Pharmacokinetic%20Model%203.ipynb)
+* The Pharmacokinetic Models have then been analysed in [Evaluation of Pharmacokinetic Models.ipynb](./data_analysis/Evaluation%20of%20Pharmacokinetic%20Models.ipynb)
+* Accordingly, the Features have been evaluated in [Evaluation of Feature Integration.ipynb](/data_analysis/Evaluation%20of%20Feature%20Integration.ipynb)
+* Lastly, a logistic regression model have been trained in [Logistic Regression.ipynb](./data_analysis/Logistic%20Regression.ipynb)
