@@ -1,8 +1,4 @@
-# bachelorthesis_heparin
-
-## Project's Aim
-
-
+# Towards Personalized Medicine: Using Retrospective Data to Predict the Anticoagulation Effect of Heparin
 
 ## Data Extraction
 First of, data from MIMIC-IV has been extracted according to the following workflow:
