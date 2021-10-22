@@ -21,5 +21,5 @@ The data analysis has then been performed as following:
 * Them, the idea behind the pharmacokinetic models have been illustrated according to: [Visualization of Pharmacokinetic Models.ipynb](./data_analysis/Visualization of Pharmacokinetic Models.ipynb)
 * However, the development of the actual third Pharmacokinetic Model is described in more detail here: [Logic of Pharmacokinetic Model 3.ipynb](./data_analysis/Logic of Pharmacokinetic Model 3.ipynb)
 * The Pharmacokinetic Models have then been analysed in [Evaluation of Pharmacokinetic Models.ipynb](./data_analysis/Evaluation of Pharmacokinetic Models.ipynb)
-* Accordingly, the Features have been evaluated in [Evaluation of Feature Integration.ipynb](./data_analysis/Evaluation of Feature Integration.ipynb)
+* Accordingly, the Features have been evaluated in [Evaluation of Feature Integration.ipynb](/data_analysis/Evaluation of Feature Integration.ipynb)
 * Lastly, a logistic regression model have been trained in [Logistic Regression.ipynb](./data_analysis/Logistic Regression.ipynb)
